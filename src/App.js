@@ -8,7 +8,7 @@ class App extends PureComponent {
         document.getElementById('snowflake-input').focus();
         this.setState({ input: '', time: 0 });
     };
-    inputChange = (e, d) => this.setState({ input: d.value, time: d.value ? (d.value / 4194304) + 1420070400000 : 0 });
+    inputChange = (e, d) => this.setState({ input: d.value, time: d.value ? (d.value / 4194304) + 1577836800000 : 0 });
     showHelp = e => this.setState({ helpOpen: true });
     hideHelp = e => this.setState({ helpOpen: false });
     render() {
