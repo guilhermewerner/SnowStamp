@@ -12,7 +12,7 @@ Pull requests and issues are welcome!
 
 ## Develop
 
-`npm install && npm run dev`
+`yarn && yarn dev`
 
 ### Epoch
 
@@ -20,7 +20,7 @@ You can use a custom epoch instead of [Discord's](https://discord.com/developers
 
 ## Deploy
 
-`npm run build && npm start`
+`yarn build && yarn start`
 
 ---
 
